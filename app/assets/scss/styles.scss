@@ -45,11 +45,22 @@ h1, h2, h3, h4, h5, h6 {
 		font-family: 'showtimenormal';
 		font-size: 2.15em;
 		font-weight: 600;
+		text-decoration:none;
+		color:black;
+
 		padding: .0em 0;
 
 		span {
 			background: -webkit-linear-gradient(bottom left, lime, white, gold);
 
+		}
+		a:link{
+		float: left;
+		font-family: 'showtimenormal';
+		font-size: 2.15em;
+		font-weight: 600;
+		color:black;
+		padding: .0em 0;
 		}
 	}
 	#main_nav {
@@ -72,11 +83,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #banner {
-	background: url(../assets/banner_background.jpg);
+	background: url(../assets/thecrate.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	padding: 6.5em 0;
+	padding: 10.5em 0;
+
 	#banner_content_wrapper {
 		width: 900px;
 		max-width: 90%;
@@ -108,8 +120,15 @@ h1, h2, h3, h4, h5, h6 {
 	}
 	#content {
 		float: left;
-		width: 500px;
-		margin-left: 100px;
+		/*width: 500px;
+		margin-left: 100px;*/
+
+		 .greeting {
+     		/*display: inline-block;*/
+    		font-size: 2.75em;
+    		color: #FFFFFF;
+    		text-align: center;
+}
 		.title {
 			display: inline;
 			font-size: 1.75em;
@@ -129,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 		}
 		.description {
 			color: #bbbebf;
-			font-size: 1em;
+			font-size: 1.5em;
 			line-height: 2;
 		}
 		.info {
@@ -147,12 +166,14 @@ h1, h2, h3, h4, h5, h6 {
 #top_movies, #top_shows {
 	padding: 5em 0;
 	header {
-		padding: 0 0 1.5em 0;
+		padding: 57px 0 1.5em 0;
+		text-align: center;
+
 		h2, .view_more {
 			display: inline;
 		}
 		h2 {
-			font-size: 1.75em;
+			font-size: 2.75em;
 		}
 		.view_more {
 			float: right;
@@ -169,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 .row {
 	width: 100%;
 	.post {
-		width: 14%;
+		width: 44%;
 		float: left;
 		margin-right: 2.5%;
 		img {
@@ -335,7 +356,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	.row {
 		.post {
-			width: 30.6%;
+			width: 100%;
 			margin: 0 1.25% 2em 1.25%;
 			.title {
 				font-size: 1em;
