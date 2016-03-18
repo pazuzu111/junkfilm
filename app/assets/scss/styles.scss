@@ -162,6 +162,35 @@ h1, h2, h3, h4, h5, h6 {
 		}
 	}
 }
+//
+#top_movies2 {
+	border-bottom: 1px solid #d4d4d4;
+}
+
+.row2 {
+	width: 100%;
+	height:100%;
+	.post2 {
+		width: 14%;
+		float: left;
+		margin-right: 2.5%;
+		img {
+			width: 100%;
+			max-width: 100%;
+			border-radius: .5em;
+		}
+		.title2 {
+			font-size: 1.25em;
+			margin: 1em 0 0 0;
+			color: $main;
+		}
+		.post_info2 {
+			font-size: .75em;
+			color: $secondary;
+			margin: 0.5em 0;
+		}
+	}
+}
 
 #top_movies, #top_shows {
 	padding: 5em 0;
